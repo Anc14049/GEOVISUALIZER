@@ -242,7 +242,8 @@
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 904.222778, 319.0, 163.0, 33.0 ],
 					"style" : "",
-					"text" : "Modified and Re-engineered by Antonio Cuevas"
+					"text" : "Modified and Re-engineered by Antonio Cuevas",
+					"textcolor" : [ 0.92549, 0.364706, 0.341176, 1.0 ]
 				}
 
 			}
@@ -258,23 +259,24 @@
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 721.222778, 319.0, 150.0, 33.0 ],
 					"style" : "",
-					"text" : "Original patch by Mosato Tsutsui"
+					"text" : "Original patch by Mosato Tsutsui",
+					"textcolor" : [ 0.92549, 0.364706, 0.341176, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-71",
-					"linecount" : 7,
+					"linecount" : 9,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 690.30603, 423.0, 371.0, 100.0 ],
+					"patching_rect" : [ 690.30603, 423.0, 371.0, 141.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 721.222778, 360.0, 345.0, 114.0 ],
+					"presentation_rect" : [ 721.222778, 360.0, 394.0, 127.0 ],
 					"style" : "",
-					"text" : "FOR EASIER USAGE, DOWNLOAD TOUCHOSC FROM THE APP STORE OR ANDROID ALONG WITH OSCULATOR ON YOUR OSX PC. FOLLOW THE INSTRUCTIONS IN THE FOLDER TO CONNECT YOUR INTERFACE TO SOFTWARE\n\nIN ORDER TO HAVE THE VISUALIZER WORK WITH YOUR AUDIO, SET YOUR AUDIO OUTPUT TO SOUNDFLOWER(2CH) \n",
+					"text" : "FOR EASIER USAGE, DOWNLOAD TOUCHOSC FROM THE APP STORE OR ANDROID ALONG WITH OSCULATOR ON MAC OSX. FOLLOW THE INSTRUCTIONS IN THE README INCLUDED IN THE  FOLDER TO CONNECT TO OSC\n\nIN ORDER TO HAVE THE VISUALIZER WORK WITH YOUR AUDIO, SET YOUR AUDIO OUTPUT TO SOUNDFLOWER(2CH) AND PROCEED TO PLAY AUDO FROM ANY TAB OUTSIDE OF MAX \n",
 					"textcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ]
 				}
 
@@ -2053,7 +2055,7 @@
 													"outlettype" : [ "", "float" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 267.0, 132.0, 231.0, 112.0 ],
-													"saturation" : 0.192157
+													"saturation" : 0.898039
 												}
 
 											}
