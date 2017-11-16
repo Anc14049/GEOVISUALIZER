@@ -271,10 +271,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 690.30603, 423.0, 371.0, 141.0 ],
+					"patching_rect" : [ 690.30603, 423.0, 371.0, 127.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 721.222778, 360.0, 394.0, 127.0 ],
+					"presentation_rect" : [ 721.222778, 360.0, 394.0, 114.0 ],
 					"style" : "",
 					"text" : "FOR EASIER USAGE, DOWNLOAD TOUCHOSC FROM THE APP STORE OR ANDROID ALONG WITH OSCULATOR ON MAC OSX. FOLLOW THE INSTRUCTIONS IN THE README INCLUDED IN THE  FOLDER TO CONNECT TO OSC\n\nIN ORDER TO HAVE THE VISUALIZER WORK WITH YOUR AUDIO, SET YOUR AUDIO OUTPUT TO SOUNDFLOWER(2CH) AND PROCEED TO PLAY AUDO FROM ANY TAB OUTSIDE OF MAX \n",
 					"textcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ]
@@ -317,15 +317,16 @@
 				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-66",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 800.80603, 24.0, 160.0, 21.0 ],
+					"patching_rect" : [ 800.80603, 24.0, 160.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 588.972778, 93.0, 100.0, 36.0 ],
+					"presentation_rect" : [ 588.972778, 93.0, 110.0, 36.0 ],
 					"style" : "",
-					"text" : "STRUCTURE OF SHAPE",
+					"text" : "COMPOSITION OF SHAPE",
 					"textcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
 				}
 
@@ -590,7 +591,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 464.666656, 174.5, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "48"
+					"text" : "49"
 				}
 
 			}
@@ -1142,12 +1143,12 @@
 , 							{
 								"name" : "blueYellowSlider",
 								"default" : 								{
+									"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"bgcolor" : [ 0.027632, 0.0, 0.307692, 1.0 ],
+									"fontface" : [ 1 ],
 									"accentcolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ],
 									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-									"fontface" : [ 1 ],
-									"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"color" : [ 1.0, 0.788235, 0.301961, 1.0 ]
 								}
 ,
@@ -1202,8 +1203,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1221,11 +1222,11 @@
 , 							{
 								"name" : "orangeBlue",
 								"default" : 								{
+									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
 									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"color" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 								}
 ,
@@ -1235,9 +1236,9 @@
 , 							{
 								"name" : "orangeBlue-1",
 								"default" : 								{
+									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"selectioncolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"color" : [ 1.0, 0.376938, 0.307692, 1.0 ]
 								}
 ,
@@ -1305,9 +1306,9 @@
 , 							{
 								"name" : "shittyStyle",
 								"default" : 								{
+									"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 									"bgcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 									"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
 								}
 ,
@@ -2055,7 +2056,7 @@
 													"outlettype" : [ "", "float" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 267.0, 132.0, 231.0, 112.0 ],
-													"saturation" : 0.898039
+													"saturation" : 0.592157
 												}
 
 											}
@@ -2806,12 +2807,12 @@
 , 											{
 												"name" : "blueYellowSlider",
 												"default" : 												{
+													"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 													"bgcolor" : [ 0.027632, 0.0, 0.307692, 1.0 ],
+													"fontface" : [ 1 ],
 													"accentcolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 													"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ],
 													"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-													"fontface" : [ 1 ],
-													"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 													"color" : [ 1.0, 0.788235, 0.301961, 1.0 ]
 												}
 ,
@@ -2866,8 +2867,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2885,11 +2886,11 @@
 , 											{
 												"name" : "orangeBlue",
 												"default" : 												{
+													"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 													"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
 													"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 													"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 													"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-													"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 													"color" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 												}
 ,
@@ -2899,9 +2900,9 @@
 , 											{
 												"name" : "orangeBlue-1",
 												"default" : 												{
+													"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 													"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 													"selectioncolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-													"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 													"color" : [ 1.0, 0.376938, 0.307692, 1.0 ]
 												}
 ,
@@ -2969,9 +2970,9 @@
 , 											{
 												"name" : "shittyStyle",
 												"default" : 												{
+													"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 													"bgcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 													"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 													"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
 												}
 ,
@@ -4731,12 +4732,12 @@
 , 							{
 								"name" : "blueYellowSlider",
 								"default" : 								{
+									"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"bgcolor" : [ 0.027632, 0.0, 0.307692, 1.0 ],
+									"fontface" : [ 1 ],
 									"accentcolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ],
 									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-									"fontface" : [ 1 ],
-									"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"color" : [ 1.0, 0.788235, 0.301961, 1.0 ]
 								}
 ,
@@ -4791,8 +4792,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4810,11 +4811,11 @@
 , 							{
 								"name" : "orangeBlue",
 								"default" : 								{
+									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
 									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"color" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 								}
 ,
@@ -4824,9 +4825,9 @@
 , 							{
 								"name" : "orangeBlue-1",
 								"default" : 								{
+									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"selectioncolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"color" : [ 1.0, 0.376938, 0.307692, 1.0 ]
 								}
 ,
@@ -4894,9 +4895,9 @@
 , 							{
 								"name" : "shittyStyle",
 								"default" : 								{
+									"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 									"bgcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 									"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
 								}
 ,
@@ -5757,12 +5758,12 @@
 , 			{
 				"name" : "blueYellowSlider",
 				"default" : 				{
+					"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 					"bgcolor" : [ 0.027632, 0.0, 0.307692, 1.0 ],
+					"fontface" : [ 1 ],
 					"accentcolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 					"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ],
 					"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 					"color" : [ 1.0, 0.788235, 0.301961, 1.0 ]
 				}
 ,
@@ -5817,8 +5818,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5836,11 +5837,11 @@
 , 			{
 				"name" : "orangeBlue",
 				"default" : 				{
+					"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
 					"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"color" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 				}
 ,
@@ -5850,9 +5851,9 @@
 , 			{
 				"name" : "orangeBlue-1",
 				"default" : 				{
+					"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"selectioncolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"color" : [ 1.0, 0.376938, 0.307692, 1.0 ]
 				}
 ,
@@ -5920,9 +5921,9 @@
 , 			{
 				"name" : "shittyStyle",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 					"bgcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 					"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
 				}
 ,
