@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 640.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 650.0 ],
 		"bgcolor" : [ 0.123344, 0.12881, 0.141842, 1.0 ],
 		"editing_bgcolor" : [ 0.163454, 0.173497, 0.188892, 1.0 ],
 		"bglocked" : 0,
@@ -39,78 +39,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"attr" : "name",
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-94",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 715.651367, 555.0, 150.0, 23.0 ],
-					"style" : "",
-					"text_width" : 70.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-97",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 715.651367, 590.0, 160.0, 120.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 160.0, 120.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-95",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 800.80603, 828.0, 160.0, 120.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 160.0, 120.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-96",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 800.80603, 799.0, 250.0, 23.0 ],
-					"style" : "",
-					"text" : "jit.matrix mat-sample 1 char 160 120"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-100",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.583313, 850.0, 118.972778, 22.0 ],
-					"style" : "",
-					"text" : "jit.gl.syphonserver"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 11.0,
@@ -267,16 +195,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-71",
-					"linecount" : 9,
+					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 690.30603, 423.0, 371.0, 127.0 ],
+					"patching_rect" : [ 690.30603, 423.0, 371.0, 181.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 721.222778, 360.0, 394.0, 114.0 ],
+					"presentation_linecount" : 11,
+					"presentation_rect" : [ 721.222778, 360.0, 394.0, 167.0 ],
 					"style" : "",
-					"text" : "FOR EASIER USAGE, DOWNLOAD TOUCHOSC FROM THE APP STORE OR ANDROID ALONG WITH OSCULATOR ON MAC OSX. FOLLOW THE INSTRUCTIONS IN THE README INCLUDED IN THE  FOLDER TO CONNECT TO OSC\n\nIN ORDER TO HAVE THE VISUALIZER WORK WITH YOUR AUDIO, SET YOUR AUDIO OUTPUT TO SOUNDFLOWER(2CH) AND PROCEED TO PLAY AUDO FROM ANY TAB OUTSIDE OF MAX \n",
+					"text" : "OPTION-COMMAND-E : PRESENTATION MODE\n\nFOR EASIER USAGE, DOWNLOAD TOUCHOSC FROM THE APP STORE OR ANDROID ALONG WITH OSCULATOR ON MAC OSX. FOLLOW THE INSTRUCTIONS IN THE README INCLUDED IN THE  FOLDER TO CONNECT TO OSC\n\nIN ORDER TO HAVE THE VISUALIZER WORK WITH YOUR AUDIO, SET YOUR AUDIO OUTPUT TO SOUNDFLOWER(2CH) AND PROCEED TO PLAY AUDO FROM ANY TAB OUTSIDE OF MAX\n\n",
 					"textcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ]
 				}
 
@@ -591,7 +519,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 464.666656, 174.5, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "49"
+					"text" : "45"
 				}
 
 			}
@@ -852,7 +780,7 @@
 					"presentation_rect" : [ 248.666626, 136.0, 100.0, 22.0 ],
 					"style" : "",
 					"text" : "ctlin 21",
-					"textcolor" : [ 0.644518, 0.782441, 0.237321, 1.0 ]
+					"textcolor" : [ 0.643137, 0.784314, 0.239216, 1.0 ]
 				}
 
 			}
@@ -880,7 +808,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 464.666656, 92.600006, 101.0, 35.0 ],
 					"style" : "",
-					"text" : "scale 0 127 -200 200."
+					"text" : "scale 0 127 0 -200."
 				}
 
 			}
@@ -1143,13 +1071,13 @@
 , 							{
 								"name" : "blueYellowSlider",
 								"default" : 								{
+									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"bgcolor" : [ 0.027632, 0.0, 0.307692, 1.0 ],
 									"fontface" : [ 1 ],
+									"color" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"accentcolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-									"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-									"color" : [ 1.0, 0.788235, 0.301961, 1.0 ]
+									"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1222,12 +1150,12 @@
 , 							{
 								"name" : "orangeBlue",
 								"default" : 								{
+									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+									"color" : [ 0.027451, 0.0, 0.305882, 1.0 ],
 									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-									"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-									"color" : [ 0.027451, 0.0, 0.305882, 1.0 ]
+									"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 								}
 ,
 								"parentstyle" : "blueYellowSlider",
@@ -1236,10 +1164,10 @@
 , 							{
 								"name" : "orangeBlue-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"selectioncolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-									"color" : [ 1.0, 0.376938, 0.307692, 1.0 ]
+									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"color" : [ 1.0, 0.376938, 0.307692, 1.0 ],
+									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 								}
 ,
 								"parentstyle" : "blueYellowSlider",
@@ -1248,8 +1176,8 @@
 , 							{
 								"name" : "orangeBlue2",
 								"default" : 								{
-									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 								}
 ,
 								"parentstyle" : "orangeBlue",
@@ -1259,8 +1187,8 @@
 								"name" : "orangeBlueMeter",
 								"default" : 								{
 									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 								}
 ,
 								"parentstyle" : "orangeBlue2",
@@ -1275,8 +1203,8 @@
 								"name" : "orangeBlueSlider",
 								"default" : 								{
 									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 								}
 ,
 								"parentstyle" : "orangeBlue2",
@@ -1286,8 +1214,8 @@
 								"name" : "orangeBlueTog",
 								"default" : 								{
 									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"elementcolor" : [ 0.490196, 0.0, 0.309804, 1.0 ],
-									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.490196, 0.0, 0.309804, 1.0 ]
 								}
 ,
 								"parentstyle" : "orangeBlue-1",
@@ -1308,8 +1236,8 @@
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 									"bgcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
-									"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1350,7 +1278,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 278.0, 96.0, 638.0, 351.0 ],
+						"rect" : [ 195.0, 74.0, 638.0, 351.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1378,6 +1306,22 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-117",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 57.0, 205.0, 107.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.gl.syphonserver"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "jit.pwindow",
@@ -2056,7 +2000,7 @@
 													"outlettype" : [ "", "float" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 267.0, 132.0, 231.0, 112.0 ],
-													"saturation" : 0.592157
+													"saturation" : 0.823529
 												}
 
 											}
@@ -2807,13 +2751,13 @@
 , 											{
 												"name" : "blueYellowSlider",
 												"default" : 												{
+													"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 													"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 													"bgcolor" : [ 0.027632, 0.0, 0.307692, 1.0 ],
 													"fontface" : [ 1 ],
+													"color" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 													"accentcolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-													"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ],
-													"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-													"color" : [ 1.0, 0.788235, 0.301961, 1.0 ]
+													"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2886,12 +2830,12 @@
 , 											{
 												"name" : "orangeBlue",
 												"default" : 												{
+													"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 													"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 													"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+													"color" : [ 0.027451, 0.0, 0.305882, 1.0 ],
 													"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-													"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-													"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-													"color" : [ 0.027451, 0.0, 0.305882, 1.0 ]
+													"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 												}
 ,
 												"parentstyle" : "blueYellowSlider",
@@ -2900,10 +2844,10 @@
 , 											{
 												"name" : "orangeBlue-1",
 												"default" : 												{
-													"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-													"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 													"selectioncolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-													"color" : [ 1.0, 0.376938, 0.307692, 1.0 ]
+													"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+													"color" : [ 1.0, 0.376938, 0.307692, 1.0 ],
+													"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 												}
 ,
 												"parentstyle" : "blueYellowSlider",
@@ -2912,8 +2856,8 @@
 , 											{
 												"name" : "orangeBlue2",
 												"default" : 												{
-													"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-													"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+													"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+													"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 												}
 ,
 												"parentstyle" : "orangeBlue",
@@ -2923,8 +2867,8 @@
 												"name" : "orangeBlueMeter",
 												"default" : 												{
 													"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-													"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-													"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+													"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+													"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 												}
 ,
 												"parentstyle" : "orangeBlue2",
@@ -2939,8 +2883,8 @@
 												"name" : "orangeBlueSlider",
 												"default" : 												{
 													"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-													"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-													"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+													"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+													"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 												}
 ,
 												"parentstyle" : "orangeBlue2",
@@ -2950,8 +2894,8 @@
 												"name" : "orangeBlueTog",
 												"default" : 												{
 													"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-													"elementcolor" : [ 0.490196, 0.0, 0.309804, 1.0 ],
-													"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+													"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+													"elementcolor" : [ 0.490196, 0.0, 0.309804, 1.0 ]
 												}
 ,
 												"parentstyle" : "orangeBlue-1",
@@ -2972,8 +2916,8 @@
 												"default" : 												{
 													"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 													"bgcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
-													"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ],
-													"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+													"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+													"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3079,7 +3023,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-117", 0 ],
+									"order" : 1,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
+									"order" : 0,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -3090,6 +3043,200 @@
 									"source" : [ "obj-5", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "blueYellowSlider",
+								"default" : 								{
+									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
+									"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
+									"bgcolor" : [ 0.027632, 0.0, 0.307692, 1.0 ],
+									"fontface" : [ 1 ],
+									"color" : [ 1.0, 0.788235, 0.301961, 1.0 ],
+									"accentcolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
+									"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "ksliderWhite",
+								"default" : 								{
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjBlue-1",
+								"default" : 								{
+									"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjBrown-1",
+								"default" : 								{
+									"accentcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjCyan-1",
+								"default" : 								{
+									"accentcolor" : [ 0.029546, 0.773327, 0.821113, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjGreen-1",
+								"default" : 								{
+									"accentcolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjYellow-1",
+								"default" : 								{
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "numberGold-1",
+								"default" : 								{
+									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "orangeBlue",
+								"default" : 								{
+									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
+									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+									"color" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+								}
+,
+								"parentstyle" : "blueYellowSlider",
+								"multi" : 0
+							}
+, 							{
+								"name" : "orangeBlue-1",
+								"default" : 								{
+									"selectioncolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"color" : [ 1.0, 0.376938, 0.307692, 1.0 ],
+									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+								}
+,
+								"parentstyle" : "blueYellowSlider",
+								"multi" : 0
+							}
+, 							{
+								"name" : "orangeBlue2",
+								"default" : 								{
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
+								}
+,
+								"parentstyle" : "orangeBlue",
+								"multi" : 0
+							}
+, 							{
+								"name" : "orangeBlueMeter",
+								"default" : 								{
+									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
+								}
+,
+								"parentstyle" : "orangeBlue2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "orangeBlueNumber",
+								"parentstyle" : "orangeBlue",
+								"multi" : 0
+							}
+, 							{
+								"name" : "orangeBlueSlider",
+								"default" : 								{
+									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
+								}
+,
+								"parentstyle" : "orangeBlue2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "orangeBlueTog",
+								"default" : 								{
+									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.490196, 0.0, 0.309804, 1.0 ]
+								}
+,
+								"parentstyle" : "orangeBlue-1",
+								"multi" : 0
+							}
+, 							{
+								"name" : "rsliderGold",
+								"default" : 								{
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "shittyStyle",
+								"default" : 								{
+									"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
+									"bgcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -3371,6 +3518,34 @@
 							"number" : 9,
 							"data" : [ 5, "obj-40", "toggle", "int", 1, 5, "obj-30", "number", "int", 200, 5, "obj-27", "umenu", "int", 4, 5, "obj-24", "umenu", "int", 10, 5, "obj-15", "number", "int", 11, 5, "obj-13", "toggle", "int", 1, 5, "obj-58", "number", "int", 4, 5, "obj-77", "number", "int", 11, 5, "obj-1", "number", "int", 1, 5, "obj-61", "number", "int", -67 ]
 						}
+, 						{
+							"number" : 10,
+							"data" : [ 5, "obj-40", "toggle", "int", 1, 5, "obj-30", "number", "int", 20, 5, "obj-27", "umenu", "int", 1, 5, "obj-24", "umenu", "int", 6, 5, "obj-15", "number", "int", -61, 5, "obj-13", "toggle", "int", 1, 5, "obj-58", "number", "int", 1, 5, "obj-77", "number", "int", 6, 5, "obj-1", "number", "int", 1, 5, "obj-61", "number", "int", -4 ]
+						}
+, 						{
+							"number" : 11,
+							"data" : [ 5, "obj-40", "toggle", "int", 1, 5, "obj-30", "number", "int", 200, 5, "obj-27", "umenu", "int", 6, 5, "obj-24", "umenu", "int", 6, 5, "obj-15", "number", "int", 70, 5, "obj-13", "toggle", "int", 1, 5, "obj-58", "number", "int", 6, 5, "obj-77", "number", "int", 6, 5, "obj-1", "number", "int", 1, 5, "obj-61", "number", "int", 1 ]
+						}
+, 						{
+							"number" : 12,
+							"data" : [ 5, "obj-40", "toggle", "int", 1, 5, "obj-30", "number", "int", 48, 5, "obj-27", "umenu", "int", 6, 5, "obj-24", "umenu", "int", 0, 5, "obj-15", "number", "int", 45, 5, "obj-13", "toggle", "int", 0, 5, "obj-58", "number", "int", 6, 5, "obj-77", "number", "int", 0, 5, "obj-1", "number", "int", 0, 5, "obj-61", "number", "int", -4 ]
+						}
+, 						{
+							"number" : 13,
+							"data" : [ 5, "obj-40", "toggle", "int", 1, 5, "obj-30", "number", "int", 60, 5, "obj-27", "umenu", "int", 7, 5, "obj-24", "umenu", "int", 5, 5, "obj-15", "number", "int", 200, 5, "obj-13", "toggle", "int", 0, 5, "obj-58", "number", "int", 8, 5, "obj-77", "number", "int", 5, 5, "obj-1", "number", "int", 0, 5, "obj-61", "number", "int", -4 ]
+						}
+, 						{
+							"number" : 14,
+							"data" : [ 5, "obj-40", "toggle", "int", 1, 5, "obj-30", "number", "int", 13, 5, "obj-27", "umenu", "int", 1, 5, "obj-24", "umenu", "int", 10, 5, "obj-15", "number", "int", -62, 5, "obj-13", "toggle", "int", 0, 5, "obj-58", "number", "int", 1, 5, "obj-77", "number", "int", 11, 5, "obj-1", "number", "int", 0, 5, "obj-61", "number", "int", -4 ]
+						}
+, 						{
+							"number" : 15,
+							"data" : [ 5, "obj-40", "toggle", "int", 1, 5, "obj-30", "number", "int", 13, 5, "obj-27", "umenu", "int", 2, 5, "obj-24", "umenu", "int", 6, 5, "obj-15", "number", "int", -200, 5, "obj-13", "toggle", "int", 0, 5, "obj-58", "number", "int", 2, 5, "obj-77", "number", "int", 6, 5, "obj-1", "number", "int", 0, 5, "obj-61", "number", "int", -36 ]
+						}
+, 						{
+							"number" : 16,
+							"data" : [ 5, "obj-40", "toggle", "int", 1, 5, "obj-30", "number", "int", 13, 5, "obj-27", "umenu", "int", 3, 5, "obj-24", "umenu", "int", 9, 5, "obj-15", "number", "int", -200, 5, "obj-13", "toggle", "int", 0, 5, "obj-58", "number", "int", 3, 5, "obj-77", "number", "int", 9, 5, "obj-1", "number", "int", 0, 5, "obj-61", "number", "int", -1 ]
+						}
  ],
 					"style" : ""
 				}
@@ -3386,7 +3561,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 35.666668, 608.0, 541.0, 35.0 ],
+					"patching_rect" : [ 85.25, 608.666687, 541.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.gl.mesh sample @draw_mode points @lighting_enable 0 @smooth_shading 1 @blend_enable 1 @blend_mode 3 1 @texture tex1 @point_size 3"
 				}
@@ -3591,7 +3766,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 35.666668, 556.0, 254.0, 22.0 ],
+					"patching_rect" : [ 59.666668, 557.333313, 254.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.op @op pass pass + pass pass"
 				}
@@ -4732,13 +4907,13 @@
 , 							{
 								"name" : "blueYellowSlider",
 								"default" : 								{
+									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"bgcolor" : [ 0.027632, 0.0, 0.307692, 1.0 ],
 									"fontface" : [ 1 ],
+									"color" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"accentcolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-									"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-									"color" : [ 1.0, 0.788235, 0.301961, 1.0 ]
+									"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4811,12 +4986,12 @@
 , 							{
 								"name" : "orangeBlue",
 								"default" : 								{
+									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+									"color" : [ 0.027451, 0.0, 0.305882, 1.0 ],
 									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-									"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-									"color" : [ 0.027451, 0.0, 0.305882, 1.0 ]
+									"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 								}
 ,
 								"parentstyle" : "blueYellowSlider",
@@ -4825,10 +5000,10 @@
 , 							{
 								"name" : "orangeBlue-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 									"selectioncolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-									"color" : [ 1.0, 0.376938, 0.307692, 1.0 ]
+									"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"color" : [ 1.0, 0.376938, 0.307692, 1.0 ],
+									"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 								}
 ,
 								"parentstyle" : "blueYellowSlider",
@@ -4837,8 +5012,8 @@
 , 							{
 								"name" : "orangeBlue2",
 								"default" : 								{
-									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 								}
 ,
 								"parentstyle" : "orangeBlue",
@@ -4848,8 +5023,8 @@
 								"name" : "orangeBlueMeter",
 								"default" : 								{
 									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 								}
 ,
 								"parentstyle" : "orangeBlue2",
@@ -4864,8 +5039,8 @@
 								"name" : "orangeBlueSlider",
 								"default" : 								{
 									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 								}
 ,
 								"parentstyle" : "orangeBlue2",
@@ -4875,8 +5050,8 @@
 								"name" : "orangeBlueTog",
 								"default" : 								{
 									"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-									"elementcolor" : [ 0.490196, 0.0, 0.309804, 1.0 ],
-									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+									"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+									"elementcolor" : [ 0.490196, 0.0, 0.309804, 1.0 ]
 								}
 ,
 								"parentstyle" : "orangeBlue-1",
@@ -4897,8 +5072,8 @@
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 									"bgcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
-									"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5162,15 +5337,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 45.166668, 607.0, 45.166668, 607.0 ],
-					"order" : 1,
-					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
+					"midpoints" : [ 69.166672, 607.0, 94.75, 607.0 ],
 					"order" : 0,
 					"source" : [ "obj-25", 0 ]
 				}
@@ -5178,8 +5345,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"order" : 1,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 45.166668, 506.0, 45.166668, 506.0 ],
+					"midpoints" : [ 45.166668, 484.0, 45.166668, 484.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -5187,7 +5362,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 45.166668, 474.0, 67.0, 474.0, 67.0, 450.0, 350.5, 450.0 ],
+					"midpoints" : [ 45.166668, 348.666656, 175.666672, 348.666656, 175.666672, 452.0, 350.5, 452.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -5209,7 +5384,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 45.166668, 273.0, 197.5, 273.0 ],
+					"midpoints" : [ 45.166668, 241.666672, 197.5, 241.666672 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -5331,7 +5506,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 76.5, 239.0, 197.5, 239.0 ],
+					"midpoints" : [ 76.5, 213.0, 197.5, 213.0 ],
 					"source" : [ "obj-42", 3 ]
 				}
 
@@ -5430,6 +5605,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-58", 0 ]
 				}
@@ -5465,6 +5647,13 @@
 					"midpoints" : [ 94.5, 102.5, 94.5, 102.5 ],
 					"order" : 1,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}
@@ -5529,7 +5718,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"midpoints" : [ 441.333344, 570.0, 45.166668, 570.0 ],
+					"midpoints" : [ 441.333344, 570.0, 69.166672, 570.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -5683,15 +5872,43 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-97", 0 ],
-					"source" : [ "obj-94", 0 ]
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-86", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
-					"source" : [ "obj-96", 0 ]
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-91", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-93", 0 ]
 				}
 
 			}
@@ -5758,13 +5975,13 @@
 , 			{
 				"name" : "blueYellowSlider",
 				"default" : 				{
+					"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 					"bgcolor" : [ 0.027632, 0.0, 0.307692, 1.0 ],
 					"fontface" : [ 1 ],
+					"color" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 					"accentcolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-					"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ],
-					"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-					"color" : [ 1.0, 0.788235, 0.301961, 1.0 ]
+					"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5837,12 +6054,12 @@
 , 			{
 				"name" : "orangeBlue",
 				"default" : 				{
+					"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+					"color" : [ 0.027451, 0.0, 0.305882, 1.0 ],
 					"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-					"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-					"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-					"color" : [ 0.027451, 0.0, 0.305882, 1.0 ]
+					"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "blueYellowSlider",
@@ -5851,10 +6068,10 @@
 , 			{
 				"name" : "orangeBlue-1",
 				"default" : 				{
-					"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-					"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"selectioncolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-					"color" : [ 1.0, 0.376938, 0.307692, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+					"color" : [ 1.0, 0.376938, 0.307692, 1.0 ],
+					"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "blueYellowSlider",
@@ -5863,8 +6080,8 @@
 , 			{
 				"name" : "orangeBlue2",
 				"default" : 				{
-					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "orangeBlue",
@@ -5874,8 +6091,8 @@
 				"name" : "orangeBlueMeter",
 				"default" : 				{
 					"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "orangeBlue2",
@@ -5890,8 +6107,8 @@
 				"name" : "orangeBlueSlider",
 				"default" : 				{
 					"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "orangeBlue2",
@@ -5901,8 +6118,8 @@
 				"name" : "orangeBlueTog",
 				"default" : 				{
 					"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-					"elementcolor" : [ 0.490196, 0.0, 0.309804, 1.0 ],
-					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+					"elementcolor" : [ 0.490196, 0.0, 0.309804, 1.0 ]
 				}
 ,
 				"parentstyle" : "orangeBlue-1",
@@ -5923,8 +6140,8 @@
 				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 					"bgcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
-					"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ],
-					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+					"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
